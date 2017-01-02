@@ -21,9 +21,7 @@ En este apartado explicamos las principales características de nuestra placa de
         - [Arduino IDE en Mac](#arduino-ide-en-mac)
 - [Scratch 4 Arduino](#scratch-4-arduino)
     - [Instalar Scratch 4 Arduino](#instalar-scratch-4-arduino)
-        - [Scratch 4 Arduino en Linux](#scratch-4-arduino-en-linux)
-        - [Scratch 4 Arduino en Windows](#scratch-4-arduino-en-windows)
-        - [Scratch 4 Arduino en Mac](#scratch-4-arduino-en-mac)
+    - [Cargar el Firmware](#cargar-el-firmware)
 
 
 
@@ -107,6 +105,8 @@ Independientemente del lenguaje de programación que vayamos a utilizar, es indi
 
 ## Arduino IDE
 
+Arduino IDE es un editor de texto y compilador para programar y transferir el contenido de las instrucciones a la placa de Arduino en su lenguaje máquina. El lenguaje de programación utilizado es [Processing](https://processing.org/).
+
 El Software Arduino IDE se compone de 3 partes principalmente:
 - **Botonera** o barra de navegación:
     - *Verificar*: Se encarga de verificar la sintaxis de nuestro programa.
@@ -183,7 +183,11 @@ De igual manera que en el caso de instalación en Windows, en primer lugar desca
 
 ## Scratch 4 Arduino
 
-El Software Scratch 4 Arduino (S4A) se compone de 5 partes principalmente:
+Scratch 4 arduino es una modificación del software libre Scratch que nos permite crear programas para Arduino UNO, pero teniendo en cuenta que los proyectos siempre serán dependientes de la conexión con S4A.
+
+Está basado en el lenguaje de programación por bloques y sus instrucciones han sido diseñadas con un lenguaje natural, eliminando términos técnicos y empleando una terminología más natural. Así se facilita el acceso a la programación en niveles educativos básicos.
+
+El Software Scratch 4 Arduino se compone de 5 partes principalmente:
 - **Grupo de instrucciones** clasificadas por colores en las siguientes categorías:
     - *Movimiento*: Conjunto de instrucciones relacionadas con el control de los pines de la tarjeta de Arduino, asñi como el control del movimiento de cualquier personaje del escenario.
     - *Apariencia*: Instrucciones orientadas a modificar el aspecto de los personajes de nuestra aplicación. Para el caso de arduino, es un conjunto de instrucciones que apenas se utiliza.
@@ -206,6 +210,25 @@ El Software Scratch 4 Arduino (S4A) se compone de 5 partes principalmente:
 ![Software Scratch 4 Arduino](Imágenes/Software Scratch 4 Arduino.png)
 
 
+<br />
+
+
+### Instalar Scratch 4 Arduino
+
+Si el usuario se siente más cómodo con entornos de programación visuales, es posible programar arduino con una variante de Scratch, esta versión se llama Scratch 4 Arduino o S4A.
+ 
+Para ello debemos tener instalado Arduino IDE en primer lugar y en segundo lugar descargar e instalar el software desde la página web [s4a.cat](http://s4a.cat), y seguir los pasos de instalación. Independientemente del sistema operativo que utilicemos, desde la web del proyecto está disponible para Windows, Linux y Mac, siendo la instalación similar.
+
+
+<br />
+
+
+### Cargar el Firmware
+
+Para que Scratch 4 Arduino reconozca la tarjeta, debemos seguir los siguientes pasos:
+1. Abrir el archivo [S4AFirmware16.ino](http://vps34736.ovh.net/S4A/S4AFirmware16.ino) con Arduino.
+2. Cargar el firmware en la placa de Arduino habiendo comprobado que previamente que la placa de Arduino ha sido detectada por nuestro equipo y funciona correctamente.
+3. Probar que detecta correctamente nuestra placa en Scratch 4 arduino.
 
 
 
