@@ -36,6 +36,9 @@ En este apartado explicamos las principales características de Arduino, y como 
 ![Arduino UNO Rev3](Imágenes/Arduino UNO Rev3.png)
 
 
+<br />
+
+
 Arduino se apoya en 2 pilares fundamentales; [Hardware](#hardware) (placa de Arduino) y [Software](#software) (entorno de programación).
 
 ### Hardware
@@ -61,7 +64,9 @@ Las principales características que podemos encontrar en nuestra placa de Ardui
 | Máxima VC para entradas                    | 40mA      |
 | Máxima VC para pines 3.3V                  | 50mA      |
 
-###
+
+<br />
+
 
 Arduino contiene la siguiente distribución de pines:
 - Disponemos de **14 pines digitales** que pueden ser configurados como entradas o salidas, de los cuales (serigrafiadas con el símbolo ~) pueden ser utilizados como señales digitales **PWM 6 pines**.
@@ -82,11 +87,36 @@ Arduino contiene la siguiente distribución de pines:
 | VCC 5V                  | 1         |
 
 
+<br />
+
+
+### Software
+
+Independientemente del lenguaje de programación que vayamos a utilizar, es indispensable tener instalado en primer lugar el software [Arduino IDE](#arduino-ide), aunque también vamos a instalar [Scratch4Arduino](#scratch4arduino) para programar utilizando un lenguaje de programación por bloques.
+
+![Software de Arduino](Imágenes/Software de Arduino.png)
+
+
+<br />
+
+
+#### Arduino IDE
+
+El software Arduino IDE se compone de 3 partes principalmente:
+- Barra de navegación o botonera con diferentes botones:
+    - Verificar: Se encarga de verificar la sintaxis de nuestro programa.
+    - Cargar: Si la verificación ha sido correcta, podemos cargar el código en nuestra placa de Arduino.
+    - Nuevo: Simplemente abrimos un documento vacio (salvo funciones principales) para comenzar un nuevo programa.
+    - Abrir: Para abrir proyectos en otros directorios o rutas.
+    - Guardar: Simplemente guarda el programa en el directorio que especifiquemos (si es la primera vez que lo guardamos).
+    - Monitor serial: Supongamos que necesitamos saber en algún momento qué ocurre dentro de nuestra placa de Arduino, pues bien, mediante el monitor serial podemos enviar datos que se mostrarán en nuestro monitor.
+- Editor: Es la parte principal de Arduino IDE, básicamente donde se programan las líneas y líneas de código en lenguaje processing.
+- Notificaciones: Conocido normalmente por consola, es la parte de depuración donde notifica al programador sobre errores de sintaxis, comunicación, etc.
+
+![Arduino IDE](Imágenes/Arduino IDE.png)
 
 
 ***
-
-
 
 
 
