@@ -14,6 +14,8 @@ En este apartado explicamos las principales características de Arduino, y como 
 - [Qué es Arduino](#qué-es-arduino)
     - [Hardware](#hardware)
     - [Software](#software)
+        - [Software Arduino IDE](#software-arduino-ide)
+        - [Software Scratch 4 Arduino](#software-scratch-4-arduino)
 - [Instalar Arduino](#instalar-arduino)
 	- [Instalación en Linux](#instalación-en-linux)
 	- [Instalación en Windows](#instalación-en-windows)
@@ -92,7 +94,7 @@ Arduino contiene la siguiente distribución de pines:
 
 ### Software
 
-Independientemente del lenguaje de programación que vayamos a utilizar, es indispensable tener instalado en primer lugar el software [Arduino IDE](#arduino-ide), aunque también vamos a instalar [Scratch 4 Arduino](#scratch-4-arduino) para programar utilizando un lenguaje de programación por bloques.
+Independientemente del lenguaje de programación que vayamos a utilizar, es indispensable tener instalado en primer lugar el software [Software Arduino IDE](#software-arduino-ide), aunque también vamos a instalar [Software Scratch 4 Arduino](#software-scratch-4-arduino) para programar utilizando un lenguaje de programación por bloques.
 
 ![Software](Imágenes/Software.png)
 
@@ -100,18 +102,18 @@ Independientemente del lenguaje de programación que vayamos a utilizar, es indi
 <br />
 
 
-#### Arduino IDE
+#### Software Arduino IDE
 
 El Software Arduino IDE se compone de 3 partes principalmente:
-- Barra de navegación o botonera con diferentes botones:
-    - Verificar: Se encarga de verificar la sintaxis de nuestro programa.
-    - Cargar: Si la verificación ha sido correcta, podemos cargar el código en nuestra placa de Arduino.
-    - Nuevo: Simplemente abrimos un documento vacio (salvo funciones principales) para comenzar un nuevo programa.
-    - Abrir: Para abrir proyectos en otros directorios o rutas.
-    - Guardar: Simplemente guarda el programa en el directorio que especifiquemos (si es la primera vez que lo guardamos).
-    - Monitor serial: Supongamos que necesitamos saber en algún momento qué ocurre dentro de nuestra placa de Arduino, pues bien, mediante el monitor serial podemos enviar datos que se mostrarán en nuestro monitor.
-- Editor: Es la parte principal de Arduino IDE, básicamente donde se programan las líneas y líneas de código en lenguaje processing.
-- Notificaciones: Conocido normalmente por consola, es la parte de depuración donde notifica al programador sobre errores de sintaxis, comunicación, etc.
+- **Botonera** o barra de navegación:
+    - *Verificar*: Se encarga de verificar la sintaxis de nuestro programa.
+    - *Cargar*: Si la verificación ha sido correcta, podemos cargar el código en nuestra placa de Arduino.
+    - *Nuevo*: Simplemente abrimos un documento vacio (salvo funciones principales) para comenzar un nuevo programa.
+    - *Abrir*: Para abrir proyectos en otros directorios o rutas.
+    - *Guardar*: Simplemente guarda el programa en el directorio que especifiquemos (si es la primera vez que lo guardamos).
+    - *Monitor serial*: Supongamos que necesitamos saber en algún momento qué ocurre dentro de nuestra placa de Arduino, pues bien, mediante el monitor serial podemos enviar datos que se mostrarán en nuestro monitor.
+- **Editor** de programación: Es la parte principal de Arduino IDE, básicamente donde se programan las líneas y líneas de código en lenguaje processing.
+- **Notificaciones**: Conocido normalmente por consola, es la parte de depuración donde notifica al programador sobre errores de sintaxis, comunicación, etc.
 
 ![Software Arduino IDE](Imágenes/Software Arduino IDE.png)
 
@@ -119,27 +121,27 @@ El Software Arduino IDE se compone de 3 partes principalmente:
 <br />
 
 
-#### Scratch 4 Arduino
+#### Software Scratch 4 Arduino
 
 El Software Scratch 4 Arduino (S4A) se compone de 5 partes principalmente:
-- Grupo de instrucciones clasificadas por colores en las siguientes categorías:
-    - Movimiento: Conjunto de instrucciones relacionadas con el control de los pines de la tarjeta de Arduino, asñi como el control del movimiento de cualquier personaje del escenario.
-    - Apariencia: Instrucciones orientadas a modificar el aspecto de los personajes de nuestra aplicación. Para el caso de arduino, es un conjunto de instrucciones que apenas se utiliza.
-    - Sonido: Conjunto de instrucciones relacionadas con la elaboración de aplicaciones musicales, emitiendo sonidos y notas musicales.
-    - Lápiz: Scratch nos ofrece la posibilidad de que los personajes dejen un rastro durante sus movimientos por el escenario como si arrastrase un lápiz durante su trayectoria. Este rastro se genera con las instrucciones que podemos encontrar en esta sección.
-    - Control: Las instrucciones incluídas en esta sección son impresindibles para crear la lógica de nuestros programas. Incluyen condicionales, bucles y llamadas de acción.
-    - Sensores: Instrucciones de iteración con el ratón, el teclado, sonidos y los personajes.
-    - Operadores: operaciones matemáticas, lógicas y con cadenas de texto.
-    - variables: Instrucciones para el almacenamiento y gestión de datos.
-- Instrucciones: Las instrucciones de cada grupo corresponden a instrucciones de programación, en este caso del lenguaje de programación por bloques de Scratch (S4A).
-- Editor: Es la parte principal donde estructuramos nuestro programa.
-    - Programas: Se compone de todas las instrucciones que hace funcionar el código que programemos.
-    - Disfraces: Cada objeto o sprite puede tener diferentes apariencias o disfraces para utilizar a lo largo de nuestro programa.
-    - Sonido: También es posible añadir o grabar sonidos y guardarlos para futuros usos.
-- Escenario: La ventana principal o escenario es el resultado de nuestro programa.
-- Objetos: Distinguimos principalemente lso objetos de tipo Arduino y los sprites.
-    - Objetos de tipo arduino son aquellos que interactuán con Arduino.
-    - El resto de sprites son similar al entorno de scratch y no interactúan con Arduino.
+- **Grupo de instrucciones** clasificadas por colores en las siguientes categorías:
+    - *Movimiento*: Conjunto de instrucciones relacionadas con el control de los pines de la tarjeta de Arduino, asñi como el control del movimiento de cualquier personaje del escenario.
+    - *Apariencia*: Instrucciones orientadas a modificar el aspecto de los personajes de nuestra aplicación. Para el caso de arduino, es un conjunto de instrucciones que apenas se utiliza.
+    - *Sonido*: Conjunto de instrucciones relacionadas con la elaboración de aplicaciones musicales, emitiendo sonidos y notas musicales.
+    - *Lápiz*: Scratch nos ofrece la posibilidad de que los personajes dejen un rastro durante sus movimientos por el escenario como si arrastrase un lápiz durante su trayectoria. Este rastro se genera con las instrucciones que podemos encontrar en esta sección.
+    - *Control*: Las instrucciones incluídas en esta sección son impresindibles para crear la lógica de nuestros programas. Incluyen condicionales, bucles y llamadas de acción.
+    - *Sensores*: Instrucciones de iteración con el ratón, el teclado, sonidos y los personajes.
+    - *Operadores*: operaciones matemáticas, lógicas y con cadenas de texto.
+    - *Variables*: Instrucciones para el almacenamiento y gestión de datos.
+- **Instrucciones** de programación: Las instrucciones de cada grupo corresponden a instrucciones de programación, en este caso del lenguaje de programación por bloques de Scratch (S4A).
+- **Editor**: Es la parte principal donde estructuramos nuestro programa.
+    - *Programas*: Se compone de todas las instrucciones que hace funcionar el código que programemos.
+    - *Disfraces*: Cada objeto o sprite puede tener diferentes apariencias o disfraces para utilizar a lo largo de nuestro programa.
+    - *Sonido*: También es posible añadir o grabar sonidos y guardarlos para futuros usos.
+- **Escenario** o ventana principal: Es el resultado de nuestro programa.
+- **Objetos** y sprites: Distinguimos principalemente lso objetos de tipo Arduino y los sprites.
+    - Los *objetos* de tipo arduino son aquellos que interactuán con Arduino.
+    - Los *sprites* son similares al entorno de scratch y no interactúan con Arduino.
 
 ![Software Scratch 4 Arduino](Imágenes/Software Scratch 4 Arduino.png)
 
