@@ -9,18 +9,21 @@
 
 
 
-En este apartado explicamos las principales características de Arduino, y como instalar el software que utilizaremos para programar una placa de Arduino.
+En este apartado explicamos las principales características de nuestra placa de Arduino, y como instalar el software que utilizaremos para programar.
 
 - [Qué es Arduino](#qué-es-arduino)
     - [Hardware](#hardware)
     - [Software](#software)
-        - [Software Arduino IDE](#software-arduino-ide)
-        - [Software Scratch 4 Arduino](#software-scratch-4-arduino)
-- [Instalar Arduino](#instalar-arduino)
-	- [Instalación en Linux](#instalación-en-linux)
-	- [Instalación en Windows](#instalación-en-windows)
-	- [Instalación en Mac](#instalación-en-mac)
-	- [Acceder a Arduino](#acceder-a-arduino)
+- [Arduino IDE](#arduino-ide)
+    - [Instalar Arduino IDE](#instalar-arduino-ide)
+        - [Arduino IDE en Linux](#arduino-ide-en-linux)
+        - [Arduino IDE en Windows](#arduino-ide-en-windows)
+        - [Arduino IDE en Mac](#arduino-ide-en-mac)
+-[Scratch 4 Arduino](#scratch-4-arduino)
+    - [Instalar Scratch 4 Arduino](#instalar-scratch-4-arduino)
+        - [Scratch 4 Arduino en Linux](#scratch-4-arduino-en-linux)
+        - [Scratch 4 Arduino en Windows](#scratch-4-arduino-en-windows)
+        - [Scratch 4 Arduino en Mac](#scratch-4-arduino-en-mac)
 
 
 
@@ -94,15 +97,15 @@ Arduino contiene la siguiente distribución de pines:
 
 ### Software
 
-Independientemente del lenguaje de programación que vayamos a utilizar, es indispensable tener instalado en primer lugar el software [Software Arduino IDE](#software-arduino-ide), aunque también vamos a instalar [Software Scratch 4 Arduino](#software-scratch-4-arduino) para programar utilizando un lenguaje de programación por bloques.
+Independientemente del lenguaje de programación que vayamos a utilizar, es indispensable tener instalado en primer lugar el software [Arduino IDE](#arduino-ide), aunque también vamos a instalar [Scratch 4 Arduino](#scratch-4-arduino) para programar utilizando un lenguaje de programación por bloques.
 
 ![Software](Imágenes/Software.png)
 
 
-<br />
+<br /><br />
 
 
-#### Software Arduino IDE
+## Arduino IDE
 
 El Software Arduino IDE se compone de 3 partes principalmente:
 - **Botonera** o barra de navegación:
@@ -121,7 +124,64 @@ El Software Arduino IDE se compone de 3 partes principalmente:
 <br />
 
 
-#### Software Scratch 4 Arduino
+### Instalar Arduino IDE
+
+En primer lugar debemos acceder y descargar el software desde la página web [Arduino.org](http://www.arduino.org). Dependiendo del sistema operativo que utilicemos procederemos a una de las siguientes instalaciones.
+
+- [Arduino IDE en Linux](#arduino-ide-en-linux)
+- [Arduino IDE en Windows](#arduino-ide-en-windows)
+- [Arduino IDE en Mac](#arduino-ide-en-mac)
+
+
+<br />
+
+
+#### Arduino IDE en Linux
+
+Nos hemos basado en la distribución **Ubuntu** para realizar esta guía de instalación puesto que la mayoría de las distribuciones de Linux a nivel educativo se basan en ella.
+
+Para trabajar con Arduino es preciso que nuestra distribución tenga instalados los siguientes paquetes además de Arduino IDE.
+
+```
+- sun's java runtime (jre)
+- gcc-avr
+- avr-libc
+- binutils-avr
+```
+
+Para instalar dichos paquetes vamos a necesitar la clave de administrador. A continuación abrimos un nuevo terminal o consola y ejecutamos las siguientes instrucciones:
+
+```
+$ sudo add-apt-repository ppa:arduino-ubuntu-team
+$ sudo apt-get update
+$ sudo apt-get install arduino
+```
+
+Para ejecutar la aplicación de Arduino IDE, basta con acceder al menú *Aplicaciones > Programación > Arduino*.
+
+
+<br />
+
+
+#### Arduino IDE en Windows
+
+Descargamos el software de Arduino desde la sección de descargas de la página web [Arduino.org](http://www.arduino.org/downloads) y procedemos a ejecutar el programa descargado aceptando la licencia de uso y siguiendo los pasos que aparecen en el instalador.
+
+
+<br />
+
+
+#### Arduino IDE en Mac
+
+De igual manera que en el caso de instalación en Windows, en primer lugar descargamos el software de Arduino desde la sección de descargas de la página web [Arduino.org](http://www.arduino.org/downloads) y procedemos a ejecutar el programa descargado aceptando la licencia de uso y siguiendo los pasos que aparecen en el instalador.
+
+
+
+<br /><br />
+
+
+
+## Scratch 4 Arduino
 
 El Software Scratch 4 Arduino (S4A) se compone de 5 partes principalmente:
 - **Grupo de instrucciones** clasificadas por colores en las siguientes categorías:
@@ -144,6 +204,7 @@ El Software Scratch 4 Arduino (S4A) se compone de 5 partes principalmente:
     - Los *sprites* son similares al entorno de scratch y no interactúan con Arduino.
 
 ![Software Scratch 4 Arduino](Imágenes/Software Scratch 4 Arduino.png)
+
 
 
 
