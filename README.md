@@ -12,17 +12,17 @@
 En este apartado explicamos las principales características de Arduino, y como instalar el software que utilizaremos para programar una placa de Arduino.
 
 - [Qué es Arduino](#qué-es-arduino)
+    - [Hardware](#hardware)
+    - [Software](#software)
 - [Instalar Arduino](#instalar-arduino)
 	- [Instalación en Linux](#instalación-en-linux)
 	- [Instalación en Windows](#instalación-en-windows)
 	- [Instalación en Mac](#instalación-en-mac)
 	- [Acceder a Arduino](#acceder-a-arduino)
-- [Instalar S4A](#resistencias)
 
 
 
-
-=============
+***
 
 
 
@@ -41,10 +41,10 @@ Arduino se apoya en 2 pilares fundamentales; [Hardware](#hardware) (placa de Ard
 ### Hardware
 
 Las principales características que podemos encontrar en nuestra placa de Arduino UNO Rev3, son las siguientes:
-- El microcontrolador es un *circuito integrado programable* capaz de realizar operaciones matemáticas complejas a gran velocidad.
+- El microcontrolador es un **circuito integrado programable** capaz de realizar operaciones matemáticas complejas a gran velocidad.
 - Normalmente el modo de alimentación de una placa de Arduino es mediante el puerto USB mientras se está programando, pero hay ocasiones en la que necesitamos que el código de nuestra placa se siga ejecutándose sin estar conectado al equipo. Probablemente la forma más habitual de alimentar Arduino (sin utilizar tu equipo) es mediante una fuente de alimentación o pila de 9V. 
-- Arduino dispone de un *regulador de voltaje interno* que actúa para que la tensión de alimentación no supere los 12V, ya que en caso contrario podemos dañar el regulador y con ello la placa de Arduino. Por otro lado, para tensiones inferiores a 7V en la alimentación, es probable que la placa no llegue a encenderse. La mayoría de los componentes electrónicos de Arduino utilizan una tensión operativa de 5V (ya regulada).
-- Tanto las *entradas* como las *salidas* dotan al sistema de información y realizan diferentes actuaciones.
+- Arduino dispone de un **regulador de voltaje interno** que actúa para que la tensión de alimentación no supere los 12V, ya que en caso contrario podemos dañar el regulador y con ello la placa de Arduino. Por otro lado, para tensiones inferiores a 7V en la alimentación, es probable que la placa no llegue a encenderse. La mayoría de los componentes electrónicos de Arduino utilizan una tensión operativa de 5V (ya regulada).
+- Tanto las **entradas** como las **salidas** dotan al sistema de información y realizan diferentes actuaciones.
 
 | Características Arduino UNO Rev3           |           |
 | ------------------------------------------ | --------- |
@@ -65,10 +65,10 @@ Las principales características que podemos encontrar en nuestra placa de Ardui
 ![Pines Arduino UNO Rev3](Imágenes/Pines Arduino UNO Rev3.png)
 
 Arduino contiene la siguiente distribución de pines:
-- Disponemos de *14 pines digitales* que pueden ser configurados como entradas o salidas, 6 de los cuales (serigrafiadas con el símbolo ~) pueden ser utilizados como señales digitales PWM.
-- Igualmente diponemos de *6 pines analógicos* serigrafiadas desde A0 hasta A5 para las entradas analógicas.
-- También disponemos de *3 pines GND* para conectar a tierra nuestros circuitos.
-- Y por último *2 pines de alimentación* de 5V y 3.3V respectivamente.
+- Disponemos de **14 pines digitales** que pueden ser configurados como entradas o salidas, de los cuales (serigrafiadas con el símbolo ~) pueden ser utilizados como señales digitales **PWM 6 pines**.
+- Igualmente diponemos de **6 pines analógicos** serigrafiadas desde A0 hasta A5 para las entradas analógicas.
+- También disponemos de **3 pines GND** para conectar a tierra nuestros circuitos.
+- Y por último **2 pines de alimentación** de 5V y 3.3V respectivamente.
 
 | Pines Arduino UNO Rev3  |           |
 | ----------------------- | --------- |
@@ -83,7 +83,7 @@ Arduino contiene la siguiente distribución de pines:
 
 
 
-=============
+***
 
 
 
