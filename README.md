@@ -61,14 +61,15 @@ Las principales características que podemos encontrar en nuestra placa de Ardui
 | Máxima VC para entradas                    | 40mA      |
 | Máxima VC para pines 3.3V                  | 50mA      |
 
-
-![Pines Arduino UNO Rev3](Imágenes/Pines Arduino UNO Rev3.png)
+###
 
 Arduino contiene la siguiente distribución de pines:
 - Disponemos de **14 pines digitales** que pueden ser configurados como entradas o salidas, de los cuales (serigrafiadas con el símbolo ~) pueden ser utilizados como señales digitales **PWM 6 pines**.
 - Igualmente diponemos de **6 pines analógicos** serigrafiadas desde A0 hasta A5 para las entradas analógicas.
 - También disponemos de **3 pines GND** para conectar a tierra nuestros circuitos.
 - Y por último **2 pines de alimentación** de 5V y 3.3V respectivamente.
+
+![Pines Arduino UNO Rev3](Imágenes/Pines Arduino UNO Rev3.png)
 
 | Pines Arduino UNO Rev3  |           |
 | ----------------------- | --------- |
