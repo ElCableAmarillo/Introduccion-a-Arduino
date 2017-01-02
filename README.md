@@ -5,7 +5,7 @@
 
 
 
-=============
+***
 
 
 
@@ -31,12 +31,12 @@ En este apartado explicamos las principales características de Arduino, y como 
 **Arduino** es una plataforma para prototipado de electrónica basada en hardware y software libre y fácil de utilizar. Podemos construir circuitos electrónicos y programarlos para:
 - iniciarnos en el mundo de la electrónica y robótica.
 - construir componentes electrónicos a nuestro gusto.
-- crear nuestros propio modelo de negocio.
+- crear nuestro propio modelo de negocio.
 
 ![Arduino UNO Rev3](Imágenes/Arduino UNO Rev3.png)
 
 
-Arduino se apoya en 2 pilares fundamentales; *hardware* (placa de Arduino) y *software* (entorno de programación).
+Arduino se apoya en 2 pilares fundamentales; [Hardware](#hardware) (placa de Arduino) y [Software](#software) (entorno de programación).
 
 ### Hardware
 
