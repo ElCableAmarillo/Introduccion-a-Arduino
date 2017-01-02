@@ -19,7 +19,7 @@ En este apartado explicamos las principales características de nuestra placa de
         - [Arduino IDE en Linux](#arduino-ide-en-linux)
         - [Arduino IDE en Windows](#arduino-ide-en-windows)
         - [Arduino IDE en Mac](#arduino-ide-en-mac)
--[Scratch 4 Arduino](#scratch-4-arduino)
+- [Scratch 4 Arduino](#scratch-4-arduino)
     - [Instalar Scratch 4 Arduino](#instalar-scratch-4-arduino)
         - [Scratch 4 Arduino en Linux](#scratch-4-arduino-en-linux)
         - [Scratch 4 Arduino en Windows](#scratch-4-arduino-en-windows)
