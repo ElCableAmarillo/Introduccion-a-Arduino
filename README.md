@@ -149,6 +149,7 @@ Para ello debemos tener instalado [Arduino IDE](#arduino-ide) en primer lugar y 
 ### Cargar el Firmware
 
 Para que Scratch 4 Arduino reconozca la tarjeta, debemos seguir los siguientes pasos:
+
 1. Abrir el archivo [S4AFirmware16.ino](http://vps34736.ovh.net/S4A/S4AFirmware16.ino) con Arduino.
 2. Cargar el firmware en la placa de Arduino habiendo comprobado que previamente que la placa de Arduino ha sido detectada por nuestro equipo y funciona correctamente.
 3. Probar que detecta correctamente nuestra placa en Scratch 4 arduino.
