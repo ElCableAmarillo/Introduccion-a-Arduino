@@ -14,15 +14,15 @@ En este apartado verás una breve introducción al **hardware** y **software** d
 - [Qué es Arduino](#qué-es-arduino)
     - [Hardware](#hardware)
     - [Software](#software)
+- [Scratch 4 Arduino](#scratch-4-arduino)
+    - [Instalar Scratch 4 Arduino](#instalar-scratch-4-arduino)
+    - [Cargar el Firmware](#cargar-el-firmware)
 - [Arduino IDE](#arduino-ide)
     - [Instalar Arduino IDE](#instalar-arduino-ide)
         - [Arduino IDE en Linux](#arduino-ide-en-linux)
         - [Arduino IDE en Windows](#arduino-ide-en-windows)
         - [Arduino IDE en Mac](#arduino-ide-en-mac)
-- [Scratch 4 Arduino](#scratch-4-arduino)
-    - [Instalar Scratch 4 Arduino](#instalar-scratch-4-arduino)
-    - [Cargar el Firmware](#cargar-el-firmware)
-
+- [Instalación de la tarjeta](#instalación-de-la-tarjeta)
 
 
 ***
@@ -149,9 +149,9 @@ Para ello debemos tener instalado [Arduino IDE](#arduino-ide) en primer lugar y 
 ### Cargar el Firmware
 
 Para que Scratch 4 Arduino reconozca la tarjeta, debemos seguir los siguientes pasos:
-1.  Abrir el archivo [S4AFirmware16.ino](http://vps34736.ovh.net/S4A/S4AFirmware16.ino) con Arduino.
-2.  Cargar el firmware en la placa de Arduino habiendo comprobado que previamente que la placa de Arduino ha sido detectada por nuestro equipo y funciona correctamente.
-3.  Probar que detecta correctamente nuestra placa en Scratch 4 arduino.
+1. Abrir el archivo [S4AFirmware16.ino](http://vps34736.ovh.net/S4A/S4AFirmware16.ino) con Arduino.
+2. Cargar el firmware en la placa de Arduino habiendo comprobado que previamente que la placa de Arduino ha sido detectada por nuestro equipo y funciona correctamente.
+3. Probar que detecta correctamente nuestra placa en Scratch 4 arduino.
 
 
 
@@ -231,6 +231,14 @@ Descargamos el software de Arduino desde la sección de descargas de la página 
 De igual manera que en el caso de instalación en Windows, en primer lugar descargamos el software de Arduino desde la sección de descargas de la página web [Arduino.org](http://www.arduino.org/downloads) y procedemos a ejecutar el programa descargado aceptando la licencia de uso y siguiendo los pasos que aparecen en el instalador.
 
 
+<br /><br />
+
+
+## Instalación de la tarjeta
+
+Al instalar Arduino IDE , los drivers de la tarjeta quedan instalados en el PC. Para comprobar su correcto funcionamiento conectamos la tarjeta al ordenador a través del cable USB. Automáticamente el ordenador reconocerá la tarjeta.
+
+Para introducir en ella los programas que hagamos, necesitamos saber qué puerto COM ha asignado el sistema operativo a la tarjeta de Arduino para proceder a la carga de programas en la misma. 
 
 
 
