@@ -9,7 +9,7 @@
 
 
 
-En este apartado explicamos las principales características de nuestra placa de Arduino, y como instalar el software que utilizaremos para programar.
+En este apartado verás una breve introducción al **hardware** y **software** de Arduino.
 
 - [Qué es Arduino](#qué-es-arduino)
     - [Hardware](#hardware)
@@ -95,9 +95,64 @@ Arduino contiene la siguiente distribución de pines:
 
 ### Software
 
-Independientemente del lenguaje de programación que vayamos a utilizar, es indispensable tener instalado en primer lugar el software [Arduino IDE](#arduino-ide), aunque también vamos a instalar [Scratch 4 Arduino](#scratch-4-arduino) para programar utilizando un lenguaje de programación por bloques.
+Podemos emplear diferentes entornos y/o lenguajes de programación para programar la placa de Arduino. Principalmente vamos a utilizar [Scratch 4 Arduino](#scratch-4-arduino) para programar utilizando un lenguaje de programación por bloques y [Arduino IDE](#arduino-ide) para programar a través del lenguaje de programación en modo texto de Processing.
 
 ![Software](Imágenes/Software.png)
+
+
+<br /><br />
+
+
+
+## Scratch 4 Arduino
+
+Scratch 4 arduino es una modificación del software libre Scratch que nos permite crear programas para Arduino UNO, pero teniendo en cuenta que los proyectos siempre serán dependientes de la conexión con S4A.
+
+Está basado en el lenguaje de programación por bloques y sus instrucciones han sido diseñadas con un lenguaje natural, eliminando términos técnicos y empleando una terminología más natural. Así se facilita el acceso a la programación en niveles educativos básicos.
+
+El Software Scratch 4 Arduino se compone de 5 partes principalmente:
+- **Grupo de instrucciones** clasificadas por colores en las siguientes categorías:
+    - *Movimiento*: Conjunto de instrucciones relacionadas con el control de los pines de la tarjeta de Arduino, asñi como el control del movimiento de cualquier personaje del escenario.
+    - *Apariencia*: Instrucciones orientadas a modificar el aspecto de los personajes de nuestra aplicación. Para el caso de arduino, es un conjunto de instrucciones que apenas se utiliza.
+    - *Sonido*: Conjunto de instrucciones relacionadas con la elaboración de aplicaciones musicales, emitiendo sonidos y notas musicales.
+    - *Lápiz*: Scratch nos ofrece la posibilidad de que los personajes dejen un rastro durante sus movimientos por el escenario como si arrastrase un lápiz durante su trayectoria. Este rastro se genera con las instrucciones que podemos encontrar en esta sección.
+    - *Control*: Las instrucciones incluídas en esta sección son impresindibles para crear la lógica de nuestros programas. Incluyen condicionales, bucles y llamadas de acción.
+    - *Sensores*: Instrucciones de iteración con el ratón, el teclado, sonidos y los personajes.
+    - *Operadores*: operaciones matemáticas, lógicas y con cadenas de texto.
+    - *Variables*: Instrucciones para el almacenamiento y gestión de datos.
+- **Instrucciones** de programación: Las instrucciones de cada grupo corresponden a instrucciones de programación, en este caso del lenguaje de programación por bloques de Scratch (S4A).
+- **Editor**: Es la parte principal donde estructuramos nuestro programa.
+    - *Programas*: Se compone de todas las instrucciones que hace funcionar el código que programemos.
+    - *Disfraces*: Cada objeto o sprite puede tener diferentes apariencias o disfraces para utilizar a lo largo de nuestro programa.
+    - *Sonido*: También es posible añadir o grabar sonidos y guardarlos para futuros usos.
+- **Escenario** o ventana principal: Es el resultado de nuestro programa.
+- **Objetos** y sprites: Distinguimos principalemente lso objetos de tipo Arduino y los sprites.
+    - Los *objetos* de tipo arduino son aquellos que interactuán con Arduino.
+    - Los *sprites* son similares al entorno de scratch y no interactúan con Arduino.
+
+![Software Scratch 4 Arduino](Imágenes/Software Scratch 4 Arduino.png)
+
+
+<br />
+
+
+### Instalar Scratch 4 Arduino
+
+Si el usuario se siente más cómodo con entornos de programación visuales, es posible programar arduino con una variante de Scratch, esta versión se llama Scratch 4 Arduino o S4A.
+ 
+Para ello debemos tener instalado [Arduino IDE](#arduino-ide) en primer lugar y en segundo lugar descargar e instalar el software desde la página web [s4a.cat](http://s4a.cat), y seguir los pasos de instalación. Independientemente del sistema operativo que utilicemos, desde la web del proyecto está disponible para Windows, Linux y Mac, siendo la instalación similar.
+
+
+<br />
+
+
+### Cargar el Firmware
+
+Para que Scratch 4 Arduino reconozca la tarjeta, debemos seguir los siguientes pasos:
+1.  Abrir el archivo [S4AFirmware16.ino](http://vps34736.ovh.net/S4A/S4AFirmware16.ino) con Arduino.
+2.  Cargar el firmware en la placa de Arduino habiendo comprobado que previamente que la placa de Arduino ha sido detectada por nuestro equipo y funciona correctamente.
+3.  Probar que detecta correctamente nuestra placa en Scratch 4 arduino.
+
 
 
 <br /><br />
@@ -177,62 +232,13 @@ De igual manera que en el caso de instalación en Windows, en primer lugar desca
 
 
 
-<br /><br />
-
-
-
-## Scratch 4 Arduino
-
-Scratch 4 arduino es una modificación del software libre Scratch que nos permite crear programas para Arduino UNO, pero teniendo en cuenta que los proyectos siempre serán dependientes de la conexión con S4A.
-
-Está basado en el lenguaje de programación por bloques y sus instrucciones han sido diseñadas con un lenguaje natural, eliminando términos técnicos y empleando una terminología más natural. Así se facilita el acceso a la programación en niveles educativos básicos.
-
-El Software Scratch 4 Arduino se compone de 5 partes principalmente:
-- **Grupo de instrucciones** clasificadas por colores en las siguientes categorías:
-    - *Movimiento*: Conjunto de instrucciones relacionadas con el control de los pines de la tarjeta de Arduino, asñi como el control del movimiento de cualquier personaje del escenario.
-    - *Apariencia*: Instrucciones orientadas a modificar el aspecto de los personajes de nuestra aplicación. Para el caso de arduino, es un conjunto de instrucciones que apenas se utiliza.
-    - *Sonido*: Conjunto de instrucciones relacionadas con la elaboración de aplicaciones musicales, emitiendo sonidos y notas musicales.
-    - *Lápiz*: Scratch nos ofrece la posibilidad de que los personajes dejen un rastro durante sus movimientos por el escenario como si arrastrase un lápiz durante su trayectoria. Este rastro se genera con las instrucciones que podemos encontrar en esta sección.
-    - *Control*: Las instrucciones incluídas en esta sección son impresindibles para crear la lógica de nuestros programas. Incluyen condicionales, bucles y llamadas de acción.
-    - *Sensores*: Instrucciones de iteración con el ratón, el teclado, sonidos y los personajes.
-    - *Operadores*: operaciones matemáticas, lógicas y con cadenas de texto.
-    - *Variables*: Instrucciones para el almacenamiento y gestión de datos.
-- **Instrucciones** de programación: Las instrucciones de cada grupo corresponden a instrucciones de programación, en este caso del lenguaje de programación por bloques de Scratch (S4A).
-- **Editor**: Es la parte principal donde estructuramos nuestro programa.
-    - *Programas*: Se compone de todas las instrucciones que hace funcionar el código que programemos.
-    - *Disfraces*: Cada objeto o sprite puede tener diferentes apariencias o disfraces para utilizar a lo largo de nuestro programa.
-    - *Sonido*: También es posible añadir o grabar sonidos y guardarlos para futuros usos.
-- **Escenario** o ventana principal: Es el resultado de nuestro programa.
-- **Objetos** y sprites: Distinguimos principalemente lso objetos de tipo Arduino y los sprites.
-    - Los *objetos* de tipo arduino son aquellos que interactuán con Arduino.
-    - Los *sprites* son similares al entorno de scratch y no interactúan con Arduino.
-
-![Software Scratch 4 Arduino](Imágenes/Software Scratch 4 Arduino.png)
-
-
-<br />
-
-
-### Instalar Scratch 4 Arduino
-
-Si el usuario se siente más cómodo con entornos de programación visuales, es posible programar arduino con una variante de Scratch, esta versión se llama Scratch 4 Arduino o S4A.
- 
-Para ello debemos tener instalado Arduino IDE en primer lugar y en segundo lugar descargar e instalar el software desde la página web [s4a.cat](http://s4a.cat), y seguir los pasos de instalación. Independientemente del sistema operativo que utilicemos, desde la web del proyecto está disponible para Windows, Linux y Mac, siendo la instalación similar.
-
-
-<br />
-
-
-### Cargar el Firmware
-
-Para que Scratch 4 Arduino reconozca la tarjeta, debemos seguir los siguientes pasos:
-- Abrir el archivo [S4AFirmware16.ino](http://vps34736.ovh.net/S4A/S4AFirmware16.ino) con Arduino.
-- Cargar el firmware en la placa de Arduino habiendo comprobado que previamente que la placa de Arduino ha sido detectada por nuestro equipo y funciona correctamente.
-- Probar que detecta correctamente nuestra placa en Scratch 4 arduino.
 
 
 
 ***
+
+
+
 
 
 
