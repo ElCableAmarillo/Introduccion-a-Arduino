@@ -242,6 +242,7 @@ Al instalar Arduino IDE , los drivers de la tarjeta quedan instalados en el PC. 
 Para introducir en ella los programas que hagamos, necesitamos saber qué puerto COM ha asignado el sistema operativo a la tarjeta de Arduino para proceder a la carga de programas en la misma. 
 
 
+<br /><br />
 
 
 ***
