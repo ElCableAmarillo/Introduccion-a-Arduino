@@ -49,7 +49,7 @@ Arduino se apoya en 2 pilares fundamentales; [Hardware](#hardware) (placa de Ard
 Las principales características que podemos encontrar en nuestra placa de Arduino UNO Rev3, son las siguientes:
 - El microcontrolador es un **circuito integrado programable** capaz de realizar operaciones matemáticas complejas a gran velocidad.
 - Normalmente el modo de alimentación de una placa de Arduino es mediante el puerto USB mientras se está programando, pero hay ocasiones en la que necesitamos que el código de nuestra placa se siga ejecutándose sin estar conectado al equipo. Probablemente la forma más habitual de alimentar Arduino (sin utilizar tu equipo) es mediante una fuente de alimentación o pila de 9V. 
-- Arduino dispone de un **regulador de voltaje interno** que actúa para que la tensión de alimentación no supere los 12V, ya que en caso contrario podemos dañar el regulador y con ello la placa de Arduino. Por otro lado, para tensiones inferiores a 7V en la alimentación, es probable que la placa no llegue a encenderse. La mayoría de los componentes electrónicos de Arduino utilizan una tensión operativa de 5V (ya regulada).
+- Arduino dispone de un **regulador de voltaje interno** que actúa para que la tensión de alimentación no supere los 12V, ya que en caso contrario podemos dañar el regulador y con ello la placa de Arduino. Por otro lado, para tensiones inferiores a 7V en la alimentación, es probable que la placa no llegue a encenderse. La mayoría de los componentes electrónicos de Arduino utilizan una **tensión operativa de 5V** (ya regulada por el regulador de voltaje de la propia placa de Arduino).
 - Tanto las **entradas** como las **salidas** dotan al sistema de información y realizan diferentes actuaciones.
 
 | Características Arduino UNO Rev3           |           |
@@ -57,15 +57,14 @@ Las principales características que podemos encontrar en nuestra placa de Ardui
 | Microcontrolador                           | ATmega328 |
 | Tensión operativa                          | 5V        |
 | Tensión de alimentación                    | 7-12V     |
+| Máxima VC para entradas                    | 40mA      |
+| Máxima VC para pines 3.3V                  | 50mA      |
 | Entradas digitales                         | 14        |
 | Salidas digitales                          | 14        |
 | Entradas analógicas                        | 6         |
 | Memoria flash                              | 32Kb      |
 | SRAM                                       | 2Kb       |
 | EEPROM                                     | 1Kb       |
-| Velocidad del reloj                        | 16MHz     |
-| Máxima VC para entradas                    | 40mA      |
-| Máxima VC para pines 3.3V                  | 50mA      |
 
 
 <br />
@@ -138,7 +137,10 @@ S4A se compone de 5 partes principalmente:
 
 ### Instalar Scratch 4 Arduino
  
-Para instalar S4A en nuestro equipo debemos tener instalado [Arduino IDE](#arduino-ide) en primer lugar y en segundo lugar descargar e instalar el software desde la página web [s4a.cat](http://s4a.cat), y seguir los pasos de instalación. 
+Para instalar S4A en nuestro equipo debemos seguir los siguientes pasos:
+1. Tener instalado [Arduino IDE](#arduino-ide).
+2. Cargar un pequeño programa o **firmware** en la placa de Arduino.
+3. Instalar S4A desde la web [s4a.cat](http://s4a.cat) siguiendo los pasos de instalación. 
 
 Independientemente del sistema operativo que utilicemos, desde la web del proyecto está disponible para Windows, Linux y Mac, siendo la instalación similar.
 
@@ -150,10 +152,20 @@ Independientemente del sistema operativo que utilicemos, desde la web del proyec
 
 Para que S4A reconozca y se comunique con la tarjeta de Arduino, debemos cargar un firmware o controlador en la misma. Para ello debemos seguir los siguientes pasos:
 
-1. Abrir el archivo [S4AFirmware16.ino](http://vps34736.ovh.net/S4A/S4AFirmware16.ino) con Arduino.
+1. Abrir el archivo [S4AFirmware16.ino](http://vps34736.ovh.net/S4A/S4AFirmware16.ino) con Arduino IDE.
 2. Cargar el firmware en la placa de Arduino habiendo comprobado previamente que la placa de Arduino ha sido detectada por nuestro equipo y funciona correctamente.
 3. Probar que detecta correctamente nuestra placa en S4A.
 
+
+#### Posibles errores
+
+Durante las prácticas en las sesiones presenciales hemos detectado los siguientes errores:
+
+- En algunos equipos, los puertos USB delanteros no funcionan.
+- En sistemas operativos Windows XP:
+    - Al conectar la placa de Arduino por primera vez nos pedirá permiso para instalar los drivers. Para ello debemos tener permiso de administrador para instalarlo.
+    - Si no detecta la placa de Arduino debemos instalar los drivers desde `Panel de control > Agregar nuevo hardware`.
+- Al cargar el firmware de S4A en nuestra placa de Arduino, debemos seleccionar la placa y el puerto correcto desde el software de Arduino IDE. 
 
 
 <br /><br />
