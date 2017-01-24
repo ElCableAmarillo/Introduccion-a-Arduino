@@ -140,7 +140,7 @@ S4A se compone de 5 partes principalmente:
 Para instalar S4A en nuestro equipo debemos seguir los siguientes pasos:
 
 1. Tener instalado [Arduino IDE](#arduino-ide).
-2. Cargar un pequeño programa o **firmware** en la placa de Arduino.
+2. Cargar un pequeño programa o [firmware](#cargar-el-firmware) en la placa de Arduino.
 3. Instalar S4A desde la web [s4a.cat](http://s4a.cat) siguiendo los pasos de instalación. 
 
 Independientemente del sistema operativo que utilicemos, desde la web del proyecto está disponible para Windows, Linux y Mac, siendo la instalación similar.
