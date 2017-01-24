@@ -138,6 +138,7 @@ S4A se compone de 5 partes principalmente:
 ### Instalar Scratch 4 Arduino
  
 Para instalar S4A en nuestro equipo debemos seguir los siguientes pasos:
+
 1. Tener instalado [Arduino IDE](#arduino-ide).
 2. Cargar un pequeño programa o **firmware** en la placa de Arduino.
 3. Instalar S4A desde la web [s4a.cat](http://s4a.cat) siguiendo los pasos de instalación. 
