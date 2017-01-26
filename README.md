@@ -14,7 +14,11 @@ En este apartado verás una breve introducción al **hardware** y **software** d
 - [Qué es Arduino](#qué-es-arduino)
     - [Hardware](#hardware)
     - [Software](#software)
-- [Scratch 4 Arduino](#scratch-4-arduino)
+- [Instalación de la tarjeta de Arduino](#instalación-de-la-tarjeta-de-arduino)
+    - [Posibles errores](#posibles-errores)  
+- [mBlock Scratch y Arduino](#mblock-scratch-y-arduino)
+    - [Instalar mBlock](#instalar-mblock) 
+- [S4A Scratch y Arduino](#s4a-scratch-y-arduino)
     - [Instalar Scratch 4 Arduino](#instalar-scratch-4-arduino)
     - [Cargar el Firmware](#cargar-el-firmware)
 - [Arduino IDE](#arduino-ide)
@@ -22,7 +26,7 @@ En este apartado verás una breve introducción al **hardware** y **software** d
         - [Arduino IDE en Linux](#arduino-ide-en-linux)
         - [Arduino IDE en Windows](#arduino-ide-en-windows)
         - [Arduino IDE en Mac](#arduino-ide-en-mac)
-- [Instalación de la tarjeta](#instalación-de-la-tarjeta)
+
 
 
 ***
@@ -94,12 +98,94 @@ Arduino contiene la siguiente distribución de pines:
 
 ### Software
 
-Aunque podemos emplear diferentes entornos de programación para programar una placa de Arduino, vamos a utilizar [Scratch 4 Arduino](#scratch-4-arduino) para programar utilizando un lenguaje de programación por bloques y [Arduino IDE](#arduino-ide) para programar a través del lenguaje de programación en modo texto de Processing.
+Para programar una tarjeta de Arduino, podemos utilizar diferentes lenguajes y entornos de programación. En este caso vamos a introducir la programación y electrónica con Arduino utilizando los lenguajes de programación por bloques y lenguajes de programación en modo texto.
+- Lenguajes de programación por bloques:
+    - [mBlock](#mBlock)
+    - [Scratch 4 Arduino](#scratch-4-arduino)
+- Lenguajes de programación en modo texto
+    - [Arduino IDE](#arduino-ide)
+    
 
 ![Software](Imágenes/Software.png)
 
 
-<br /><br />
+
+
+
+***
+
+
+
+
+
+## Instalación de la tarjeta de Arduino
+
+Independientemente del sistema operativo que utilicemos, la primera vez que conectamos una tarjeta de Arduino a nuestro equipo, observaremos que será necesario **instalar los drivers** de la misma. Por ejemplo, en el caso de Windows observaremos que nos aparecerá un mensaje pidiendo permiso para instalar la nueva controladora detectada, en este caso, nuestra placa de Arduino.
+
+Para comprobar su correcto funcionamiento conectamos la tarjeta al ordenador a través del cable USB y automáticamente el ordenador la reconocerá. Además, al instalar [Arduino IDE](#arduino-ide), los drivers de la tarjeta quedan instalados en el PC.
+
+
+<br />
+
+
+### Posibles errores
+
+Es común encontrarse con pequeños errores que a continuación detallamos:
+- En algunos equipos, los puertos USB delanteros no funcionan o no están conectados internamente.
+- Al conectar la placa de Arduino por primera vez nos pedirá permiso para instalar los drivers. Para ello debemos tener permiso de administrador para instalarlo.
+- En sistemas operativos como Windows XP, si no detecta la placa de Arduino debemos instalar los drivers desde `Panel de control > Agregar nuevo hardware`.
+
+
+
+
+
+***
+
+
+
+
+
+## mBlock Scratch y Arduino
+
+**mBlock** es un entorno gráfico de programación basado en el editor Scratch 2.0 para introducir de forma sencilla la programación y robótica en el aula.
+
+mBlock se compone de 5 partes principalmente:
+- **Grupo de instrucciones** clasificadas por colores en las siguientes categorías:
+    - *Movimiento*: Conjunto de instrucciones relacionadas con el control de los pines de la tarjeta de Arduino, así como el control del movimiento de cualquier personaje del escenario.
+    - *Apariencia*: Instrucciones orientadas a modificar el aspecto de los personajes de nuestra aplicación. Para el caso de Arduino, es un conjunto de instrucciones que apenas se utiliza.
+    - *Sonido*: Conjunto de instrucciones relacionadas con la elaboración de aplicaciones musicales, emitiendo sonidos y notas musicales.
+    - *Lápiz*: Scratch nos ofrece la posibilidad de que los personajes dejen un rastro durante sus movimientos por el escenario como si arrastrase un lápiz durante su trayectoria.
+    - *Control*: Las instrucciones incluídas en esta sección son impresindibles para crear la lógica de nuestros programas. Incluyen condicionales, bucles y llamadas de procedimientos.
+    - *Sensores*: Instrucciones de iteración con el ratón, el teclado, sonidos y los personajes.
+    - *Operadores*: operaciones matemáticas, lógicas y con cadenas de texto.
+    - *Variables*: Instrucciones para el almacenamiento y gestión de datos.
+- **Instrucciones** de programación: Las instrucciones de cada grupo corresponden a instrucciones de programación.
+- **Editor**: Es la parte principal donde estructuramos y programamos nuestro programa.
+    - *Programas*: Se compone de todas las instrucciones que hace funcionar el código que programemos.
+    - *Disfraces*: Cada objeto puede tener diferentes apariencias o disfraces para utilizar a lo largo de nuestro programa.
+    - *Sonido*: También es posible añadir o grabar sonidos y guardarlos para futuros usos.
+- **Escenario** o ventana principal: Es el resultado de nuestro programa.
+- **Objetos** y sprites: Distinguimos principalmente los objetos de tipo Arduino y Sprites.
+    - Los *objetos* de tipo arduino son aquellos que interactuán con Arduino.
+    - Los *sprites* son similares al entorno de scratch y no interactúan con Arduino.
+    
+![Software mBlock](Imágenes/Software mBlock.png)
+
+
+<br />
+
+
+### Instalar mBlock
+
+Independientemente del sistema operativo que utilicemos, desde la [web del proyecto](https://www.makeblock.es/soporte/mblock/) está disponible para Windows y Mac, siendo la instalación similar.
+
+
+
+
+
+***
+
+
 
 
 
@@ -137,13 +223,13 @@ S4A se compone de 5 partes principalmente:
 
 ### Instalar Scratch 4 Arduino
  
+Independientemente del sistema operativo que utilicemos, desde la [web del proyecto](http://s4a.cat) está disponible para Windows, Linux y Mac, siendo la instalación similar.
+
 Para instalar S4A en nuestro equipo debemos seguir los siguientes pasos:
 
-1. Tener instalado [Arduino IDE](#arduino-ide).
+1. Tener instalado [Arduino IDE](#arduino-ide) en primer lugar (véase sección).
 2. Cargar un pequeño programa o [firmware](#cargar-el-firmware) en la placa de Arduino.
 3. Instalar S4A desde la web [s4a.cat](http://s4a.cat) siguiendo los pasos de instalación. 
-
-Independientemente del sistema operativo que utilicemos, desde la web del proyecto está disponible para Windows, Linux y Mac, siendo la instalación similar.
 
 
 <br />
@@ -158,6 +244,9 @@ Para que S4A reconozca y se comunique con la tarjeta de Arduino, debemos cargar 
 3. Probar que detecta correctamente nuestra placa en S4A.
 
 
+<br />
+
+
 #### Posibles errores
 
 Durante las prácticas en las sesiones presenciales hemos detectado los siguientes errores:
@@ -169,7 +258,13 @@ Durante las prácticas en las sesiones presenciales hemos detectado los siguient
 - Al cargar el firmware de S4A en nuestra placa de Arduino, debemos seleccionar la placa y el puerto correcto desde el software de Arduino IDE. 
 
 
-<br /><br />
+
+
+
+***
+
+
+
 
 
 ## Arduino IDE
@@ -245,21 +340,10 @@ Descargamos el software de Arduino desde la sección de descargas de la página 
 De igual manera que en el caso de instalación en Windows, en primer lugar descargamos el software de Arduino desde la sección de descargas de la página web [Arduino.org](http://www.arduino.org/downloads) y procedemos a ejecutar el programa descargado aceptando la licencia de uso y siguiendo los pasos que aparecen en el instalador.
 
 
-<br /><br />
 
-
-## Instalación de la tarjeta
-
-Al instalar Arduino IDE , los drivers de la tarjeta quedan instalados en el PC. Para comprobar su correcto funcionamiento conectamos la tarjeta al ordenador a través del cable USB. Automáticamente el ordenador reconocerá la tarjeta.
-
-Para introducir en ella los programas que hagamos, necesitamos saber qué puerto COM ha asignado el sistema operativo a la tarjeta de Arduino para proceder a la carga de programas en la misma. 
-
-
-<br /><br />
 
 
 ***
-
 
 
 
