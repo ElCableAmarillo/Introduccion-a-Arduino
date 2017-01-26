@@ -15,17 +15,13 @@ En este apartado verás una breve introducción al **hardware** y **software** d
     - [Hardware](#hardware)
     - [Software](#software)
 - [Instalación de la tarjeta de Arduino](#instalación-de-la-tarjeta-de-arduino)
-    - [Posibles errores](#posibles-errores)  
 - [mBlock Scratch y Arduino](#mblock-scratch-y-arduino)
     - [Instalar mBlock](#instalar-mblock) 
 - [S4A Scratch y Arduino](#s4a-scratch-y-arduino)
     - [Instalar Scratch 4 Arduino](#instalar-scratch-4-arduino)
-    - [Cargar el Firmware](#cargar-el-firmware)
 - [Arduino IDE](#arduino-ide)
     - [Instalar Arduino IDE](#instalar-arduino-ide)
-        - [Arduino IDE en Linux](#arduino-ide-en-linux)
-        - [Arduino IDE en Windows](#arduino-ide-en-windows)
-        - [Arduino IDE en Mac](#arduino-ide-en-mac)
+
 
 
 
@@ -185,6 +181,17 @@ mBlock se compone de 5 partes principalmente:
 Independientemente del sistema operativo que utilicemos, desde la [web del proyecto](https://www.makeblock.es/soporte/mblock/) está disponible para Windows y Mac, siendo la instalación similar.
 
 
+<br />
+
+
+#### Posibles errores
+
+Durante las prácticas en las sesiones presenciales hemos detectado los siguientes errores:
+
+- En algunos equipos, los puertos USB delanteros no funcionan.
+- Al conectar la placa de Arduino por primera vez nos pedirá permiso para instalar los drivers. Para ello debemos tener permiso de administrador para instalarlo.
+
+
 
 
 
@@ -243,7 +250,7 @@ Para instalar S4A en nuestro equipo debemos seguir los siguientes pasos:
 <br />
 
 
-### Cargar el Firmware
+#### Cargar el Firmware
 
 Para que S4A reconozca y se comunique con la tarjeta de Arduino, debemos cargar un firmware o controlador en la misma. Para ello debemos seguir los siguientes pasos:
 
