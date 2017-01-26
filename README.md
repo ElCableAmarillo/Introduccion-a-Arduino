@@ -29,7 +29,10 @@ En este apartado verás una breve introducción al **hardware** y **software** d
 
 
 
+<br />
+
 ***
+<br />
 
 
 
@@ -112,7 +115,10 @@ Para programar una tarjeta de Arduino, podemos utilizar diferentes lenguajes y e
 
 
 
+<br />
+
 ***
+<br />
 
 
 
@@ -137,11 +143,10 @@ Es común encontrarse con pequeños errores que a continuación detallamos:
 
 
 
-
+<br />
 
 ***
-
-
+<br />
 
 
 
@@ -183,7 +188,10 @@ Independientemente del sistema operativo que utilicemos, desde la [web del proye
 
 
 
+<br />
+
 ***
+<br />
 
 
 
@@ -261,7 +269,10 @@ Durante las prácticas en las sesiones presenciales hemos detectado los siguient
 
 
 
+<br />
+
 ***
+<br />
 
 
 
@@ -343,7 +354,10 @@ De igual manera que en el caso de instalación en Windows, en primer lugar desca
 
 
 
+<br />
+
 ***
+<br />
 
 
 
