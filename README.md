@@ -26,8 +26,7 @@ En este apartado verás una breve introducción al **hardware** y **software** d
 
 
 <br />
-
-***
+<hr>
 <br />
 
 
@@ -39,7 +38,7 @@ En este apartado verás una breve introducción al **hardware** y **software** d
 - construir componentes electrónicos a nuestro gusto.
 - crear nuestro propio modelo de negocio.
 
-![Arduino UNO Rev3](Imágenes/Arduino UNO Rev3.png)
+![Arduino UNO Rev3](Imágenes/Arduino-UNO-Rev3.png)
 
 
 <br />
@@ -79,7 +78,7 @@ Arduino contiene la siguiente distribución de pines:
 - También disponemos de **3 pines GND** para conectar a tierra nuestros circuitos.
 - Y por último **2 pines de alimentación** de 5V y 3.3V respectivamente.
 
-![Pines Arduino UNO Rev3](Imágenes/Pines Arduino UNO Rev3.png)
+![Pines Arduino UNO Rev3](Imágenes/Pines-Arduino-UNO-Rev3.png)
 
 | Pines Arduino UNO Rev3  |           |
 | ----------------------- | --------- |
@@ -112,8 +111,7 @@ Para programar una tarjeta de Arduino, podemos utilizar diferentes lenguajes y e
 
 
 <br />
-
-***
+<hr>
 <br />
 
 
@@ -140,8 +138,7 @@ Es común encontrarse con pequeños errores que a continuación detallamos:
 
 
 <br />
-
-***
+<hr>
 <br />
 
 
@@ -170,7 +167,7 @@ mBlock se compone de 5 partes principalmente:
     - Los *objetos* de tipo arduino son aquellos que interactuán con Arduino.
     - Los *sprites* son similares al entorno de scratch y no interactúan con Arduino.
     
-![Software mBlock](Imágenes/Software mBlock.png)
+![Software mBlock](Imágenes/Software-mBlock.png)
 
 
 <br />
@@ -196,8 +193,7 @@ Durante las prácticas en las sesiones presenciales hemos detectado los siguient
 
 
 <br />
-
-***
+<hr>
 <br />
 
 
@@ -230,7 +226,7 @@ S4A se compone de 5 partes principalmente:
     - Los *objetos* de tipo arduino son aquellos que interactuán con Arduino.
     - Los *sprites* son similares al entorno de scratch y no interactúan con Arduino.
 
-![Software Scratch 4 Arduino](Imágenes/Software Scratch 4 Arduino.png)
+![Software Scratch 4 Arduino](Imágenes/Software-Scratch-4-Arduino.png)
 
 
 <br />
@@ -277,8 +273,7 @@ Durante las prácticas en las sesiones presenciales hemos detectado los siguient
 
 
 <br />
-
-***
+<hr>
 <br />
 
 
@@ -300,7 +295,7 @@ El Software Arduino IDE se compone de 3 partes principalmente:
 - **Editor** de programación: Es la parte principal de Arduino IDE, básicamente donde se programan las líneas y líneas de código en lenguaje processing.
 - **Notificaciones**: Conocido normalmente por consola, es la parte de depuración donde notifica al programador sobre errores de sintaxis, comunicación, etc.
 
-![Software Arduino IDE](Imágenes/Software Arduino IDE.png)
+![Software Arduino IDE](Imágenes/Software-Arduino-IDE.png)
 
 
 <br />
@@ -362,8 +357,7 @@ De igual manera que en el caso de instalación en Windows, en primer lugar desca
 
 
 <br />
-
-***
+<hr>
 <br />
 
 
